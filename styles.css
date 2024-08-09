@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+/* nombre */
+span {
+    color: #3A9B8A;
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+ .navbar a:hover { /* se agrega una linea por debajo del texto cuando se coloca el mouse encima  */
+    text-decoration: underline;
+}
+
+/* Main sections */
+main {
+    width: 100%;
+    max-width: 800px;
+}
+
+.home, .social-profiles, .contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
