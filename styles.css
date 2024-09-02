@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: center;
+    
 }
 
 /* Header */
@@ -18,6 +19,7 @@ body {
     color: white;
     padding: 20px;
     width: 100%;
+    box-sizing: border-box;
 }
 /* nombre */
 span {
@@ -49,12 +51,30 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Images */
+/* Imagen */
 .avatar {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
     margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .header {
+        font-size: small;
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: nowrap; 
+
+    }
+    .navbar a {
+        color: #3A9B8A;
+        margin: 0 10px; 
+        white-space: nowrap; 
+    }
 }
 
